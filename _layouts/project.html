@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<!-- project_layout.html -->
+<div class="post">   
+  <header class="post-header">
+    <h1 class="post-title">{{ page.detailed-title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+
+  {% assign content_parts = content | split: '<div class="slideshow-container">' %}
+  {% if content_parts.size > 1 %}
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      {% assign imgs = content_parts[1] | split: '<img src="' %}
+      {% for img in imgs %}
+        {% unless forloop.first %}
+          {% assign img_src = img | split: '"' | first %}
+          <div class="carousel-item {% if forloop.index == 2 %}active{% endif %}">
+            <img src="{{ img_src }}" class="d-block w-100" alt="...">
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  {% endif %}
+
+  <article>
+    {{ content_parts[0] }}
+    {% if content_parts.size > 2 %}
+      {{ content_parts[2] }}
+    {% endif %}
+  </article>
+</div>
+
+<!-- <script>
+  window.addEventListener('load', () => {
+    const carouselInner = document.querySelector('.carousel-inner');
+    if (carouselInner) {
+      const firstImage = carouselInner.querySelector('.carousel-item img');
+      if (firstImage) {
+        firstImage.style.width = '90%';
+        firstImage.onload = () => {
+          const aspectRatio = firstImage.naturalWidth / firstImage.naturalHeight;
+          carouselInner.style.height = `${firstImage.offsetWidth / aspectRatio}px`;
+          firstImage.style.width = '100%';
+          firstImage.style.position = 'initial';
+          firstImage.style.transform = 'none';
+          const carouselImages = document.querySelectorAll('.carousel-item img');
+          carouselImages.forEach(img => {
+            if (img.naturalWidth > img.naturalHeight) {
+              img.style.width = '100%';
+              img.style.height = 'auto';
+            } else {
+              img.style.height = '100%';
+              img.style.width = 'auto';
+            }
+            img.style.backgroundColor = '#FFFFFFFF'; // Setting the background color to white
+          });
+        }
+      }
+    }
+  });
+</script> -->
+
+
