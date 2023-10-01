@@ -60,8 +60,7 @@
   contents:
     - title: Design and Control a Legged Robot
       year: 2023
-      description: Designed and controled a small bipedal robot, succeeding a walking speed of 15 cm/s in both simulation (Pybullet) and real-world 
-      environments.
+      description: Designed and controled a small bipedal robot, succeeding a walking speed of 15 cm/s in both simulation (Pybullet) and real-world environments.
     - title: Design and Control a Embedded Manipulator
       year: 2023
       description: Designed and controled a desktop robotic arm, utilizing FPGA to enable arm movement and grasping through solving forward and 
