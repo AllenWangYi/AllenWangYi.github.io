@@ -6,6 +6,6 @@ nav: true
 nav_order: 4
 cv_pdf: CV Yi Wang.pdf
 description: 
-toc:
-  sidebar: left
+# toc:
+#   sidebar: left
 ---
