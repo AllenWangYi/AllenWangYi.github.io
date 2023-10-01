@@ -19,7 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Yi Wang is currently pursuing a master’s degree in Mechanical Engineering with a concentration in Robotics at Columbia University. His areas of research and academic interest are extensive and diverse, encompassing subjects such as dynamic motion planning, feedback control synthesis, and machine learning. Within the field of dynamic motion planning, he explores the theoretical and computational principles that govern the movement and behavior of robotic systems. In the area of feedback control synthesis, Yi Wang is dedicated to designing and implementing algorithms that allow systems to adjust and optimize their performance in real time. Additionally, his work in machine learning focuses on developing and employing algorithms that enable computers to learn from and make predictions or decisions based on data. Through a combination of theoretical study and practical application, Yi Wang’s research contributes to the advancement of knowledge in these fields and aligns with the broader goals in Robotics.
+I am currently pursuing a master’s degree in Mechanical Engineering with a concentration in Robotics at [Columbia University](https://www.me.columbia.edu/). Meanwhile, I am working as a research assistant at WELL lab supervised by [Prof. Xiong](https://www.xiaobinxiong.info/about), developing a novel robotic system, [PogoX](https://arxiv.org/abs/2309.13737). 
+
+I received my B.S. in Mechanical Engineering from the Sichuan University. 
+
+My research focuses on the control and optimazation of robotic locomotion. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. To realize these goals, I integrate concepts from optimization, control theory, and machine learning.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
