@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Aggressive Motion Planner
 detailed-title: Kinodynamic Aggressive Trajectory Planner
 description: 

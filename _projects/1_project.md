@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Project 1
 description: Design and Control a Legged Robot
 detailed-title: Design and Control a Bipedal Robot
