@@ -22,8 +22,7 @@ The **assembly** and finalization phase brought together all the individual elem
 In conclusion, this project was a profound exploration into the realm of robotic design, where sophisticated algorithms, and a deep understanding of dynamics and controls converged into a unique creation. The use of optimization algorithms, the application of PyBullet for simulation, and the intricate interplay of kinematics and dynamics provided a rich learning experience that transcended mere academic endeavor. It’s a project that I’m proud to have undertaken, symbolizing the innovative spirit and technical prowess of modern engineering.
 
 <div class="row justify-content-sm-center align-items-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
-        <iframe class="img-fluid rounded" width="560" height="315" src="https://www.youtube.com/embed/SMPKZw6z0Z4" frameborder="0" allowfullscreen></iframe>
+    <div class="video-container"><iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/SMPKZw6z0Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
 </div>
 
