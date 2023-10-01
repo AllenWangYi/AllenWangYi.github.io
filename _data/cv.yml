@@ -63,12 +63,10 @@
       description: Designed and controled a small bipedal robot, succeeding a walking speed of 15 cm/s in both simulation (Pybullet) and real-world environments.
     - title: Design and Control a Embedded Manipulator
       year: 2023
-      description: Designed and controled a desktop robotic arm, utilizing FPGA to enable arm movement and grasping through solving forward and 
-      inverse kinematics.
+      description: Designed and controled a desktop robotic arm, utilizing FPGA to enable arm movement and grasping through solving forward and inverse kinematics.
     - title: Object Recognition and Path Planning of Manipulator
       year: 2023
-      description: Implemented object recognition and grasping in a simulation environment (Pybullet) using visual methods trained on deep neural 
-      network. Utilized RRT and A* path planning algorithms to achieve robotic arm movement.
+      description: Implemented object recognition and grasping in a simulation environment (Pybullet) using visual methods trained on deep neural network. Utilized RRT and A* path planning algorithms to achieve robotic arm movement.
 
 - title: Skills
   type: time_table
