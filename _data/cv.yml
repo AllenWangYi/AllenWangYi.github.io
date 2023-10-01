@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yi Wang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 25th September 1999
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Mechanical Engineering
+      institution: Columbia University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Concentration on Robotics and Control
+    - title: B.S. in Mechanical Engineering
+      institution: Sichuan University
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Concentration on Energy and Combustion
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: WELL Lab in University of Wisconsin-Madison
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a novel robotic system, PogoX, that seamlessly integrates a quadrotor with a spring-loaded leg, enabling aerial vehicles to 
+          perform terrestrial locomotion under heavy payloads
+        - Engineered a decoupled control strategy that employs vertical height control through a quadratic program-based energy shaping and 
+          horizontal velocity control inspired by step-to-step dynamics, achieving robust hopping under varying conditions.
+        - Overcame traditional limitations of quadrotors by incorporating a spring-loaded leg, expanding the operational envelope and paving 
+          the way for versatile applications in complex environments.
+    - title: Research Assistant
+      institution: ROAR Lab in Columbia University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Evaluated different EMG pattern classification algorithms such as Linear Discriminant Analysis (LDA), Support Vector Machine 
+          (SVM), and Deep Neural Network(DNN) to classify the EMG signals into different head-neck movements and achieved 86.5% 
+          accuracy using ConvRNN Classification method
+        - Detected a motor impaired user's intention to execute specific head movements based on neck muscles EMG and implemented 
+          selected machine learning algorithm into neck brace's control system and tested it on ALS patients in real-time.
+    - title: Research Assistant
+      institution: Sichuan University
+      year: 2021-2022
       description:
+        - Unveiled groundbreaking strategies to reduce CO, NOx, and UHC emissions by 90% in both low and high thermal intensity scenarios, 
+          fundamentally redefining clean energy benchmarks for MILD combustion in cylindrical furnaces.
+        - Validated a novel reactor network calculation method for C3H8/air MILD combustion, setting a precedent for accurate and effective 
+          modeling in the extension of MILD combustion systems to high-power applications like boilers and gas turbines.
+        - Deciphered the complex relationships between furnace geometry and operational conditions, laying the groundwork for highly efficient 
+          and environmentally-friendly power generation solutions.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Design and Control a Legged Robot
+      year: 2023
+      description: Designed and controled a small bipedal robot, succeeding a walking speed of 15 cm/s in both simulation (Pybullet) and real-world 
+      environments.
+    - title: Design and Control a Embedded Manipulator
+      year: 2023
+      description: Designed and controled a desktop robotic arm, utilizing FPGA to enable arm movement and grasping through solving forward and 
+      inverse kinematics.
+    - title: Object Recognition and Path Planning of Manipulator
+      year: 2023
+      description: Implemented object recognition and grasping in a simulation environment (Pybullet) using visual methods trained on deep neural 
+      network. Utilized RRT and A* path planning algorithms to achieve robotic arm movement.
 
-- title: Honors and Awards
+- title: Skills
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Simulation
+      description: Pybullet, Mujoco and Gazebo
+    - title: Program Language
+      description: Python, Matlab, C, C++, ROS and ROS2
+    - title: Sensor
+      description: IMU, Lidar Distance Sensor, Stereo Camera, Flight Controller, Force Resistance Sensor
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hiking, Badminton, etc.
