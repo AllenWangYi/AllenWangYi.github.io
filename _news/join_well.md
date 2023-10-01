@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [Well lab](https://roar.me.columbia.edu/) in Columbia University as research assistant.
+I joined [ROAR lab](https://roar.me.columbia.edu/) in Columbia University as research assistant.

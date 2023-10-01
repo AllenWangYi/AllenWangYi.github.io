@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [ROAR lab](https://well.robotics.wisc.edu/) in UNIVERSITY of WISCONSIN–MADISON as research assistant.
+I joined [WELL lab](https://well.robotics.wisc.edu/) in UNIVERSITY of WISCONSIN–MADISON as research assistant.
