@@ -23,6 +23,7 @@ In conclusion, this project was a profound exploration into the realm of robotic
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        <iframe class="img-fluid rounded" width="560" height="315" src="https://youtu.be/SMPKZw6z0Z4" frameborder="0" allowfullscreen></iframe>
+        <iframe class="img-fluid rounded" width="560" height="315" src="https://www.youtube.com/embed/SMPKZw6z0Z4" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
+
