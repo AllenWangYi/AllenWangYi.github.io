@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Design and Control a Legged Robot
+description:
+img: assets/img/bipedal.jpg
+importance: 1
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The development of the legged robot was an intricate process that required a comprehensive understanding of various technical aspects, including robot design, dynamics, control, programming algorithms, and simulation techniques.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+During the **design phase**, extensive online research was conducted to study previous robotic designs, drawing inspiration from their mechanics and aesthetics. This exploration fostered an understanding that was instrumental in sparking innovation, leading to the creation of a unique legged robot. My personal insights and creativity were intertwined with the gleaned knowledge, culminating in a design that was brought to life within the SolidWorks platform.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In the **dynamics and kinematics** phase, attention was turned to the physical principles governing the robot’s movement, wherein I worked on developing kinematic models to articulate the motion of the robot. These models allowed me to depict and control the joints, body motion and gait, including their relationship with the forces and torques in the system. I also ensured that the structure could handle the weight and loads, a critical aspect of building a successful legged robot.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+One of the core aspects of the project was the algorithm, where I implemented optimization techniques such as gradient descent. By using gradient descent, I was able to efficiently minimize errors and fine-tune the motor controls to find optimal parameters that ensured smooth and stable gaits. Other advanced techniques, such as reinforcement learning algorithms, were also explored to make the robot’s movements more lifelike and dynamic.
+
+**Simulation** played a pivotal role in the development and validation of the robot’s movement, and PyBullet was my chosen platform for this purpose. By leveraging PyBullet’s realistic physics engine, I could replicate real-world conditions to observe the robot’s behavior, performance, and robustness. The virtual environment enabled me to rigorously test various walking and dancing gaits, accelerating the prototyping process, and allowing for quick iterations. This use of PyBullet proved to be invaluable, enabling me to visualize, analyze, and improve the robot’s design before physical construction, thus saving both time and resources.
+
+The **assembly** and finalization phase brought together all the individual elements into a cohesive whole. 3D printing was used to create the physical parts, while careful wiring and assembly brought the robot to life. Continuous testing ensured the success of the project, culminating in a walking, dancing robot that could be showcased proudly in my online portfolio.
+
+In conclusion, this project was a profound exploration into the realm of robotic design, where sophisticated algorithms, and a deep understanding of dynamics and controls converged into a unique creation. The use of optimization algorithms, the application of PyBullet for simulation, and the intricate interplay of kinematics and dynamics provided a rich learning experience that transcended mere academic endeavor. It’s a project that I’m proud to have undertaken, symbolizing the innovative spirit and technical prowess of modern engineering.
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <iframe class="img-fluid rounded" width="560" height="315" src="https://youtu.be/SMPKZw6z0Z4" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
