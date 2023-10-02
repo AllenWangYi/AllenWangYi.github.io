@@ -24,5 +24,4 @@ In conclusion, this project was a profound exploration into the realm of robotic
 <div class="row justify-content-sm-center align-items-center">
     <div class="video-container"><iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/SMPKZw6z0Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
-</div>
 
