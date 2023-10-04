@@ -2,12 +2,12 @@
 layout: page
 title: Object Recognition and Path Planning
 description:
-img: assets/img/proj.png
+img: assets/img/proj3.png
 importance: 1
 category: work
 ---
 
-I implemented  a neural network models(simplified U-Net) focused on image segmentation, achieving a 90% mIoU score. I utilized the Iterative Closest Point (ICP) algorithm for Pose Estimation, aligning point clouds for object recognition. 
+I implemented a neural network models(simplified U-Net) focused on image segmentation, achieving a 90% mIoU score. I utilized the Iterative Closest Point (ICP) algorithm for Pose Estimation, aligning point clouds for object recognition. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -22,7 +22,7 @@ I implemented  a neural network models(simplified U-Net) focused on image segmen
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/proj3_fig3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/proj3_fig3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
