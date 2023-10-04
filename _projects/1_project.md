@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design and Control an Embedded Manipulator
+title: Design and Control a Manipulator
 description:
 img: assets/img/manipulator.jpg
 importance: 1
@@ -21,7 +21,7 @@ In conclusion, this project stands as a testament to innovative engineering and 
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="video-container">
-        <iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/w3h8Cny9yQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="700" height="500"></iframe>
+        <iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/w3h8Cny9yQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="600" height="400"></iframe>
     </div>
 </div>
 
