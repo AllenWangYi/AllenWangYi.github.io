@@ -37,7 +37,7 @@ Main pipeline for this grasping algorithm is as follows:
   <li>Generate point cloud of the object as follows:
     <ul>
       <li>Capture an RGBD image</li>
-      <li>Using RGB part of it, generate segmentation mask using the trained segmentation model<li>
+      <li>Using RGB part of it, generate segmentation mask using the trained segmentation model</li>
       <li>Mask out this object in depth image using the generated segmentationmask</li>
       <li>From this depth mask, generate point clouds in world coordinates for this object</li>
   </li>
