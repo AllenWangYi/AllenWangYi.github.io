@@ -29,3 +29,4 @@ I implemented a neural network models(simplified U-Net) focused on image segment
     Within the order of 1e-4 of pose estimation results
 </div>
 
+I implement RRT algorithm for path planning to move the robot from one location to another while avoiding collision with the obstacles. 
