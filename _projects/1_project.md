@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Design and Control an Embedded Manipulator
 description:
@@ -23,6 +23,6 @@ In conclusion, this project stands as a testament to innovative engineering and 
     <div class="video-container">
         <iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/w3h8Cny9yQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="700" height="500"></iframe>
     </div>
-</div>
+</div> -->
 
 
