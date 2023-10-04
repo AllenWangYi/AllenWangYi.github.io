@@ -37,16 +37,14 @@ Main pipeline for this grasping algorithm is as follows:
   <li>Generate point cloud of the object as follows:
     <ul>
       <li>Capture an RGBD image</li>
-      <li>Using RGB part of it, generate segmentation mask using the trained segmentationmodel<li>
+      <li>Using RGB part of it, generate segmentation mask using the trained segmentation model<li>
       <li>Mask out this object in depth image using the generated segmentationmask</li>
       <li>From this depth mask, generate point clouds in world coordinates for this object</li>
-    </ul>
   </li>
   <li>Sample a point cloud from the original object model as well</li>
   <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
   <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame</li>
   <li>use the RRT algorithm to plan the path from one bin to another and move the object to second bin</li>
-</ul>
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-9 mt-3 mt-md-0">
