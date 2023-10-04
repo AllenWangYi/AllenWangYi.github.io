@@ -30,3 +30,29 @@ I implemented a neural network models(simplified U-Net) focused on image segment
 </div>
 
 I implement RRT algorithm for path planning to move the robot from one location to another while avoiding collision with the obstacles. 
+
+Main pipeline for this grasping algorithm is as follows:
+<ul>
+  <li>Train a segmentation network to predict segmentation mask given an RGB image</li>
+  <li>Generate point cloud of the object as follows:
+    <ul>
+      <li>Capture an RGBD image</li>
+      <li>Using RGB part of it, generate segmentation mask using the trained segmentationmodel<li>
+      <li>Mask out this object in depth image using the generated segmentationmask</li>
+      <li>From this depth mask, generate point clouds in world coordinates for this object</li>
+    </ul>
+  </li>
+  <li>Sample a point cloud from the original object model as well</li>
+  <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
+  <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame</li>
+  <li>use the RRT algorithm to plan the path from one bin to another and move the object to second bin</li>
+</ul>
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <video class="img-fluid rounded" controls>
+            <source src="/assets/video/part4_recording.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
