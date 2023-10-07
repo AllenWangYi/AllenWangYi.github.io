@@ -18,7 +18,7 @@ I implemented a neural network models(simplified U-Net) focused on image segment
     </div>
 </div>
 <div class="caption">
-    U-Net architecture and learning curve
+    U-Net architecture and learning curve.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,7 +26,7 @@ I implemented a neural network models(simplified U-Net) focused on image segment
     </div>
 </div>
 <div class="caption">
-    Within the order of 1e-4 of pose estimation results
+    Within the order of 1e-4 of pose estimation results.
 </div>
 
 **PART 2：**
@@ -34,19 +34,19 @@ Following part 1, I implement RRT algorithm for path planning to move the robot 
 
 Main pipeline for this grasping algorithm is as follows:
 <ul>
-  <li>Train a segmentation network to predict segmentation mask given an RGB image</li>
+  <li>Train a segmentation network to predict segmentation mask given an RGB image.</li>
   <li>Generate point cloud of the object as follows:
     <ul>
-      <li>Capture an RGBD image</li>
-      <li>Using RGB part of it, generate segmentation mask using the trained segmentation model</li>
-      <li>Mask out this object in depth image using the generated segmentationmask</li>
-      <li>From this depth mask, generate point clouds in world coordinates for this object</li>
-
+      <li>Capture an RGBD image.</li>
+      <li>Using RGB part of it, generate segmentation mask using the trained segmentation model.</li>
+      <li>Mask out this object in depth image using the generated segmentation mask.</li>
+      <li>From this depth mask, generate point clouds in world coordinates for this object.</li>
+    <ul>
+  <li>Sample a point cloud from the original object model as well.</li>
+  <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates.</li>
+  <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame.</li>
+  <li>use the RRT algorithm to plan the path from one bin to another and move the object to second bin.</li>
 <ul>
-  <li>Sample a point cloud from the original object model as well</li>
-  <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
-  <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame</li>
-  <li>use the RRT algorithm to plan the path from one bin to another and move the object to second bin</li>
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-9 mt-3 mt-md-0">
@@ -59,3 +59,47 @@ Main pipeline for this grasping algorithm is as follows:
 
 **PART 3:**
 In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/proj3_fig4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Algorithm flowchart
+</div>
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <video class="img-fluid rounded" controls>
+            <source src="/assets/video/proj_3a.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+     Evaluate model on the same set of objects used in the training dataset.
+</div>
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <video class="img-fluid rounded" controls>
+            <source src="/assets/video/proj_3b.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Evaluate model on a novel set of objects that were not included in the training dataset.
+</div>
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <video class="img-fluid rounded" controls>
+            <source src="/assets/video/proj_3c.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Evaluate on mixed objects: it will load 15 objects into a bin, and the model tries to move all of them into another bin within 25 attempts.
+</div>
