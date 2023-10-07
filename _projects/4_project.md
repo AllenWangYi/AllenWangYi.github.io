@@ -40,7 +40,8 @@ Main pipeline for this grasping algorithm is as follows:
       <li>Capture an RGBD image</li>
       <li>Using RGB part of it, generate segmentation mask using the trained segmentation model</li>
       <li>Mask out this object in depth image using the generated segmentationmask</li>
-      <li>From this depth mask, generate point clouds in world coordinates for this object</li></li>
+      <li>From this depth mask, generate point clouds in world coordinates for this object</li>
+
 <ul>
   <li>Sample a point cloud from the original object model as well</li>
   <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
@@ -55,3 +56,6 @@ Main pipeline for this grasping algorithm is as follows:
         </video>
     </div>
 </div>
+
+**PART 3:**
+In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.
