@@ -21,8 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently pursuing a master’s degree in Mechanical Engineering with a concentration in Robotics at [Columbia University](https://www.me.columbia.edu/). Meanwhile, I am working as a research assistant at [WELL lab](https://well.robotics.wisc.edu/) (UW-Madison) supervised by [Prof. Xiong](https://www.xiaobinxiong.info/about), developing a novel robotic system, [PogoX](https://arxiv.org/abs/2309.13737). 
 
-I received my B.S. in Mechanical Engineering from the Sichuan University. 
-
+<!-- I received my B.S. in Mechanical Engineering from the Sichuan University.  -->
 My research focuses on the control and optimazation of robotic locomotion. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. To realize these goals, I integrate concepts from optimization, control theory, and machine learning.
 
 ***I am highly self-motivated in robotics.***
