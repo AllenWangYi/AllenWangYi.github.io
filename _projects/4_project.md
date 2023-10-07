@@ -6,7 +6,7 @@ img: assets/img/proj3.png
 importance: 1
 category: work
 ---
-
+**PART 1：**
 I implemented a neural network models(simplified U-Net) focused on image segmentation, achieving a 90% mIoU score. I utilized the Iterative Closest Point (ICP) algorithm for Pose Estimation, aligning point clouds for object recognition. 
 
 <div class="row justify-content-sm-center">
@@ -29,7 +29,8 @@ I implemented a neural network models(simplified U-Net) focused on image segment
     Within the order of 1e-4 of pose estimation results
 </div>
 
-I implement RRT algorithm for path planning to move the robot from one location to another while avoiding collision with the obstacles. 
+**PART 2：**
+Following part 1, I implement RRT algorithm for path planning to move the robot from one location to another while avoiding collision with the obstacles. 
 
 Main pipeline for this grasping algorithm is as follows:
 <ul>
@@ -40,6 +41,7 @@ Main pipeline for this grasping algorithm is as follows:
       <li>Using RGB part of it, generate segmentation mask using the trained segmentation model</li>
       <li>Mask out this object in depth image using the generated segmentationmask</li>
       <li>From this depth mask, generate point clouds in world coordinates for this object</li>
+<ul>
   <li>Sample a point cloud from the original object model as well</li>
   <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
   <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame</li>
