@@ -59,6 +59,7 @@ Main pipeline for this grasping algorithm is as follows:
      
 </div>
 
+
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         <p><strong>PART 3:</strong> In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.</p>
