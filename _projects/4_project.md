@@ -55,20 +55,22 @@ Main pipeline for this grasping algorithm is as follows:
         </video>
     </div>
 </div>
-
-**PART 3:** In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.
+<div class="caption">
+     
+</div>
 
 <div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <p>PART 3:<br>
+        In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.</p>
+    </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/proj3_fig4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Algorithm flowchart
-</div>
 
 <div class="row justify-content-sm-center align-items-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         <video class="img-fluid rounded" controls>
             <source src="/assets/video/proj_3a.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -80,7 +82,7 @@ Main pipeline for this grasping algorithm is as follows:
 </div>
 
 <div class="row justify-content-sm-center align-items-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         <video class="img-fluid rounded" controls>
             <source src="/assets/video/proj_3b.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -92,7 +94,7 @@ Main pipeline for this grasping algorithm is as follows:
 </div>
 
 <div class="row justify-content-sm-center align-items-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         <video class="img-fluid rounded" controls>
             <source src="/assets/video/proj_3c.mp4" type="video/mp4">
             Your browser does not support the video tag.
