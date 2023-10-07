@@ -67,6 +67,7 @@ Main pipeline for this grasping algorithm is as follows:
         </ul>
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
+        <p>&nbsp;</p> <!-- 空行 -->
         {% include figure.html path="assets/img/proj3_fig4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
