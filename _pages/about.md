@@ -25,7 +25,9 @@ I received my B.S. in Mechanical Engineering from the Sichuan University.
 
 My research focuses on the control and optimazation of robotic locomotion. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. To realize these goals, I integrate concepts from optimization, control theory, and machine learning.
 
-***I am looking for 2024 Spring/Fall Phd position in robotics.***
+***I am highly self-motivated in robotics.***
+
+***I am looking for 2024 Spring/Fall Phd position.***
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
