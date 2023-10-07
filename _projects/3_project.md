@@ -81,7 +81,7 @@ Main pipeline for this grasping algorithm is as follows:
     </div>
 </div>
 <div class="caption">
-     Evaluate model on the same set of objects used in the training dataset.
+     Evaluate model on the same set of objects used in the training dataset. (Success rate: 0.8)
 </div>
 
 <div class="row justify-content-sm-center align-items-center">
@@ -93,7 +93,7 @@ Main pipeline for this grasping algorithm is as follows:
     </div>
 </div>
 <div class="caption">
-    Evaluate model on a novel set of objects that were not included in the training dataset.
+    Evaluate model on a novel set of objects that were not included in the training dataset. (Success rate: 0.72)
 </div>
 
 <div class="row justify-content-sm-center align-items-center">
@@ -105,5 +105,5 @@ Main pipeline for this grasping algorithm is as follows:
     </div>
 </div>
 <div class="caption">
-    Evaluate on mixed objects: it will load 15 objects into a bin, and the model tries to move all of them into another bin within 25 attempts.
+    Evaluate on mixed objects: it will load 15 objects into a bin, and the model tries to move all of them into another bin within 25 attempts. (4 objects left)
 </div>
