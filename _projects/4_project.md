@@ -40,7 +40,7 @@ Main pipeline for this grasping algorithm is as follows:
       <li>Capture an RGBD image</li>
       <li>Using RGB part of it, generate segmentation mask using the trained segmentation model</li>
       <li>Mask out this object in depth image using the generated segmentationmask</li>
-      <li>From this depth mask, generate point clouds in world coordinates for this object</li>
+      <li>From this depth mask, generate point clouds in world coordinates for this object</li></li>
 <ul>
   <li>Sample a point cloud from the original object model as well</li>
   <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates</li>
