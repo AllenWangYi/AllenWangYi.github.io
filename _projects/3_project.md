@@ -61,8 +61,12 @@ Main pipeline for this grasping algorithm is as follows:
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        <p>PART 3:<br>
-        In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.</p>
+        <p><strong>PART 3:</strong> In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.</p>
+        <p>Two key assumptions in this part:</p>
+        <ul>
+            <li>The robot arm’s image observations come from a top-down camera, and the entire workspace is visible.</li>
+            <li>The robot performs only top-down grasping, where the pose of the gripper is reduced to 3 degrees of freedom (2D translation and 1D rotation).</li>
+        </ul>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/proj3_fig4.png" title="example image" class="img-fluid rounded z-depth-1" %}
