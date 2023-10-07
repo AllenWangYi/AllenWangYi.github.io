@@ -46,7 +46,6 @@ Main pipeline for this grasping algorithm is as follows:
   <li>Using ICP, align the original object point cloud to the segmented object pointcloud and hence get access to the object position and orientation in world coordinates.</li>
   <li>Grasp the object by transforming the optimal grasp pose from object frame to the world frame.</li>
   <li>use the RRT algorithm to plan the path from one bin to another and move the object to second bin.</li>
-</ul>
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-9 mt-3 mt-md-0">
@@ -57,10 +56,10 @@ Main pipeline for this grasping algorithm is as follows:
     </div>
 </div>
 
-**PART 3:**
-In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.
+**PART 3:** In this part, I implement and train a Visual Affordance model (also called Spatial Action Map) with manually labeled data for visual robotic pack-and-place tasks.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/proj3_fig4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
