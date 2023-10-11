@@ -13,24 +13,18 @@ In this project, I developed and trained Deep Neural Networks (DNNs) and Convolu
         {% include figure.html path="assets/img/proj4_fig1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Within the order of 1e-4 of pose estimation results.
-</div>
 
 [**Colab code**](https://colab.research.google.com/drive/1q2pl2tTfpugU69dM3x13EcOwGa1bzrV_?usp=sharing):https://colab.research.google.com/drive/1q2pl2tTfpugU69dM3x13EcOwGa1bzrV_?usp=sharing
 
 **PART 2：**
 In this project project, I employed Deep Learning techniques to train a 3-link robotic arm ('arm_student') to mimic the behavior of another similar arm ('arm_teacher') operating under known forward dynamics. The objective was to enable the 'arm_student' to learn the ground-truth forward dynamics of 'arm_teacher', which encompassed understanding the state of the arm and the application of torques at the joints. The system was initialized with a 6x1-dimensional numpy array representing state and a 3x1-dimensional array representing action in torque. The project utilized a simulation time step of 0.01 seconds, and applied a constant torque to the first joint of both arms for experimental analysis. The model was optimized for starting in a hanging position for performance consistency. Overall, this project epitomizes the application of machine learning in understanding and replicating complex mechanical dynamics
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proj4_fig2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+        <img src="assets/img/proj4_fig2.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50%;">
     </div>
 </div>
-<div class="caption">
-    Within the order of 1e-4 of pose estimation results.
-</div>
 
-[**Colab code**](https://colab.research.google.com/drive1Gx5iswzb9uGuXg1q2kjMVEaHT90GSq9G#scrollTo=D1vjDH2fL9Tu):https://colab.research.google.com/drive/1Gx5iswzb9uGuXg1q2kjMVEaHT90GSq9G#scrollTo=D1vjDH2fL9Tu
+[**Colab code**](https://colab.research.google.com/drive/1Gx5iswzb9uGuXg1q2kjMVEaHT90GSq9G#scrollTo=D1vjDH2fL9Tu):https://colab.research.google.com/drive/1Gx5iswzb9uGuXg1q2kjMVEaHT90GSq9G#scrollTo=D1vjDH2fL9Tu
 
 **PART 3：**
 In a continuation of previous work involving n-linked robotic arms, this project focused on leveraging neural networks for learning forward dynamics. Utilizing a provided 'teacher dynamics' model and controller, the task was to train a 'student dynamics' model to mimic the ground-truth behavior of the arm. The system architecture consisted of key Python classes to handle robot control and dynamics, including a flexible 'Robot' interface for setting and retrieving state and actions, as well as advancing the system through time steps. The state of each arm was represented as a 2n-dimensional vector, consisting of n joint positions [rad] and n joint velocities [rad/s], while the action was characterized by n torques [N-m] applied to n joints. This project not only integrated machine learning techniques with complex robotics systems but also allowed for modular extensions to arms with varying numbers of links
