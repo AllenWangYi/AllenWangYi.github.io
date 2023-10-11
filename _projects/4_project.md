@@ -19,7 +19,7 @@ In this project, I developed and trained Deep Neural Networks (DNNs) and Convolu
 **PART 2：**
 In this project project, I employed Deep Learning techniques to train a 3-link robotic arm ('arm_student') to mimic the behavior of another similar arm ('arm_teacher') operating under known forward dynamics. The objective was to enable the 'arm_student' to learn the ground-truth forward dynamics of 'arm_teacher', which encompassed understanding the state of the arm and the application of torques at the joints. The system was initialized with a 6x1-dimensional numpy array representing state and a 3x1-dimensional array representing action in torque. The project utilized a simulation time step of 0.01 seconds, and applied a constant torque to the first joint of both arms for experimental analysis. The model was optimized for starting in a hanging position for performance consistency. Overall, this project epitomizes the application of machine learning in understanding and replicating complex mechanical dynamics
 <div class="row justify-content-sm-center align-items-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
       <div class="image-with-caption">
         <img class="img-fluid rounded" src="/assets/img/proj4_fig2.png" alt="Your GIF Description Here">
       </div>
