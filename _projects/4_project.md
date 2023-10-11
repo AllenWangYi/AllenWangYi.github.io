@@ -2,7 +2,7 @@
 layout: page
 title: Robot Learning
 description:
-img: assets/img/proj3.png
+img: assets/img/proj4.jpg
 importance: 1
 category: work
 ---
@@ -21,7 +21,7 @@ In this project project, I employed Deep Learning techniques to train a 3-link r
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-9 mt-3 mt-md-0">
       <div class="image-with-caption">
-        <img class="img-fluid rounded" src="/assets/img/proj4_fig1.png" alt="Your GIF Description Here">
+        <img class="img-fluid rounded" src="/assets/img/proj4_fig2.png" alt="Your GIF Description Here">
       </div>
       <div class="caption"></div>
     </div>
