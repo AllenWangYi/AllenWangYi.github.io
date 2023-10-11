@@ -14,7 +14,7 @@ In this project, I developed and trained Deep Neural Networks (DNNs) and Convolu
     </div>
 </div>
 
-[Colab code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project2_yw3956_ipynb%E2%80%9D.ipynb): https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project2_yw3956_ipynb%E2%80%9D.ipynb
+[Code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project2_yw3956_ipynb%E2%80%9D.ipynb)
 
 **PART 2：**
 In this project project, I employed Deep Learning techniques to train a 3-link robotic arm ('arm_student') to mimic the behavior of another similar arm ('arm_teacher') operating under known forward dynamics. The objective was to enable the 'arm_student' to learn the ground-truth forward dynamics of 'arm_teacher', which encompassed understanding the state of the arm and the application of torques at the joints. The system was initialized with a 6x1-dimensional numpy array representing state and a 3x1-dimensional array representing action in torque. The project utilized a simulation time step of 0.01 seconds, and applied a constant torque to the first joint of both arms for experimental analysis.
@@ -27,14 +27,13 @@ In this project project, I employed Deep Learning techniques to train a 3-link r
     </div>
 </div>
 
-[Colab code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project3_yw3956_ipynb%E2%80%9D.ipynb): https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project3_yw3956_ipynb%E2%80%9D.ipynb
+[Code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/%E2%80%9Cmecs6616_Spring2023_Project3_yw3956_ipynb%E2%80%9D.ipynb)
 
 **PART 3：**
 In a continuation of previous work involving n-linked robotic arms, this project focused on leveraging neural networks for learning forward dynamics. Utilizing a provided 'teacher dynamics' model and controller, the task was to train a 'student dynamics' model to mimic the ground-truth behavior of the arm. The system architecture consisted of key Python classes to handle robot control and dynamics, including a flexible 'Robot' interface for setting and retrieving state and actions, as well as advancing the system through time steps. The state of each arm was represented as a 2n-dimensional vector, consisting of n joint positions [rad] and n joint velocities [rad/s], while the action was characterized by n torques [N-m] applied to n joints. 
 
-[Colab code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project4_yw3956.ipynb): https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project4_yw3956.ipynb
-
+[Code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project4_yw3956.ipynb)
 **PART 4：**
 In this project, I implement reinforcement learning (RL) algorithms for an n-linked robotic arm within a custom 'ArmEnv' environment. This environment encapsulated the arm dynamics and provided essential functions like 'reset(...)' and 'step(...)', conforming to the expected RL API. I dealt with the challenge of adapting a high-dimensional, continuous action space to work with a Discrete Q-Network (DQN) by implementing action space conversions. The observation vector was extended to include both the end-effector position and goal, enabling the policy to learn to achieve arbitrary goals. Training and testing were carried out under a fixed episode length of 200 steps, with a time simulation of 0.01 seconds per step. The reward function was designed as the negative square of the L2 distance between the end-effector and the target position, optimizing the arm's movements towards set objectives.
 
-[Colab code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project5_yw3956.ipynb): https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project5_yw3956.ipynb
+[Code](https://github.com/AllenWangYi/Robot-Learning-Project/blob/main/mece6616_Spring2023_Project5_yw3956.ipynb)
