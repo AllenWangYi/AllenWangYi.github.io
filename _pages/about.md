@@ -26,7 +26,7 @@ My research focuses on the control and optimazation of robotic locomotion. I pla
 
 ***I am highly self-motivated in robotics.***
 
-***I am looking for 2024 Spring/Fall Phd position.***
+<!-- ***I am looking for 2024 Spring/Fall Phd position.*** -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
