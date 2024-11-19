@@ -13,14 +13,14 @@
   contents:
     - title: M.S. in Mechanical Engineering
       institution: Columbia University
-      year: 2023
+      year: 2024
       description:
         - Concentration on Robotics and Control
     - title: B.S. in Mechanical Engineering
       institution: Sichuan University
       year: 2022
-      description:
-        - Concentration on Energy and Combustion
+      # description:
+      #   - Concentration on Energy and Combustion
 
 # - title: Experience
 #   type: time_table
