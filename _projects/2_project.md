@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-The development of the legged robot was an intricate process that required a comprehensive understanding of various technical aspects, including robot design, dynamics, control, programming algorithms, and simulation techniques.
+<!-- The development of the legged robot was an intricate process that required a comprehensive understanding of various technical aspects, including robot design, dynamics, control, programming algorithms, and simulation techniques.
 
 During the **design phase**, extensive online research was conducted to study previous robotic designs, drawing inspiration from their mechanics and aesthetics. This exploration fostered an understanding that was instrumental in sparking innovation, leading to the creation of a unique legged robot. My personal insights and creativity were intertwined with the gleaned knowledge, culminating in a design that was brought to life within the SolidWorks platform.
 
@@ -19,7 +19,9 @@ One of the core aspects of the project was the **algorithm**, where I implemente
 
 The **assembly** and finalization phase brought together all the individual elements into a cohesive whole. 3D printing was used to create the physical parts, while careful wiring and assembly brought the robot to life. Continuous testing ensured the success of the project, culminating in a walking, dancing robot that could be showcased proudly in my online portfolio.
 
-In conclusion, this project was a profound exploration into the realm of robotic design, where sophisticated algorithms, and a deep understanding of dynamics and controls converged into a unique creation. The use of optimization algorithms, the application of PyBullet for simulation, and the intricate interplay of kinematics and dynamics provided a rich learning experience that transcended mere academic endeavor. It’s a project that I’m proud to have undertaken, symbolizing the innovative spirit and technical prowess of modern engineering.
+In conclusion, this project was a profound exploration into the realm of robotic design, where sophisticated algorithms, and a deep understanding of dynamics and controls converged into a unique creation. The use of optimization algorithms, the application of PyBullet for simulation, and the intricate interplay of kinematics and dynamics provided a rich learning experience that transcended mere academic endeavor. It’s a project that I’m proud to have undertaken, symbolizing the innovative spirit and technical prowess of modern engineering. -->
+
+In this project, I designed a desktop-scale bipedal robot from scratch using SolidWorks and manufactured it through 3D printing. The robot is equipped with 8 servo motors, a Raspberry Pi, and a remote power bank to enable locomotion. I also conducted simulations on the PyBullet platform to optimize control parameters. Ultimately, the robot achieved stable walking in both the simulation environment and the real world.
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="video-container">
