@@ -4,8 +4,22 @@
 @string{aps = {American Physical Society,}}
 
 % Date of Conference: 30 May 2021 - 05 June 2021
+@ARTICLE{RAL2024,
+ author={Jiarong Kang* and Yi Wang* and Xiaobin Xiong},
+ journal={IEEE Robotics and Automation Letters (RAL)},
+ title={Fast Decentralized State Estimation for Legged Robot Locomotion via EKF and MHE},
+ year={2024},
+ abbr={RAL},
+ html={https://arxiv.org/pdf/2405.20567},
+ pdf={RAL_Fast State Estimation via EKF and MHE.pdf},
+ abstract = {In this paper, we present a fast and decentralized state estimation framework for the control of legged locomotion. The nonlinear estimation of the floating base states is decentralized to an orientation estimation via Extended Kalman Filter (EKF) and a linear velocity estimation via Moving Horizon Estimation (MHE). The EKF fuses the inertia sensor with vision to estimate the floating base orientation. The MHE uses the estimated orientation with all the sensors within a time window in the past to estimate the linear velocities based on a time-varying linear dynamics formulation of the interested states with state constraints. More importantly, a marginalization method based on the optimization structure of the full information filter (FIF) is proposed to convert the equality-constrained FIF to an equivalent MHE. This decoupling of state estimation promotes the desired balance of computation efficiency, accuracy of estimation, and the inclusion of state constraints. The proposed method is shown to be capable of providing accurate state estimation to several legged robots, including the highly dynamic hopping robot PogoX, the bipedal robot Cassie, and the quadrupedal robot Unitree Go1, with a frequency at 200 Hz and a window interval of 0.1s.},
+ video={https://www.youtube.com/watch?v=k3bBO87UIlk&ab_channel=XiaobinXIONG},
+ preview={RAL.PNG},
+ selected={true}
+}
+
 @ARTICLE{icra2024,
- author={Yi Wang and Jiarong Kang and Zhiheng Chen and Xiaobin Xiong},
+ author={Yi Wang* and Jiarong Kang* and Zhiheng Chen and Xiaobin Xiong},
  journal={IEEE International Conference on Robotics and Automation (ICRA)},
  title={Terrestrial Locomotion of PogoX From Hardware Design to Energy Shaping and Step-to-step Dynamics Based Control},
  year={2024},
@@ -24,6 +38,7 @@
  title={Operational Condition and Furnace Geometry for Premixed C3H8/Air MILD Combustion of High Thermal-Intensity and Low Emissions},
  year={2023},
  abbr={Energy},
+html={https://www.sciencedirect.com/science/article/abs/pii/S0360544223032991},
  pdf={Operational condition and furnace geometry for premixed C3H8Air MILD combustion of high thermal-intensity and low emissions.pdf},
  abstract = {MILD combustion is usually operated at relatively low reactivity, which means low thermal intensity, to achieve uniform temperature field and low emissions of CO and NOx. Further understanding of its emission characteristics at high thermal intensity condition is required to extend its application. In the present numerical study of premixed C3H8/air MILD combustion in a forward-flow cylindrical furnace, different operational conditions (equivalence ratio Φ, and thermal input Pinput) and furnace geometries (side wall angle a, aspect ratio AR) are considered to reveal their correlations with pollutant emissions including CO, NOx and unburned hydrocarbon (UHC) at thermal intensities up to 1.06 MW/m3. By adopting reactor network calculation with detailed combustion chemistry, it is found that AR plays a notable role in controlling CO, NOx and UHC emissions, while NOx emission is insensitive to the variation of side wall angle. Both the CO and UHC emissions are related to the internal recirculation flow, but the impact is determined by the location of the recirculating vortex. Moreover, following the parametric study and NOx formation analysis with an aggressive strategy, the optimized furnace geometry and operating condition of AR = 5, α = 0° and Φ = 0.6 are obtained to significantly reduce the pollutant emissions by 0.9 for both C3H8 and CH4 fuels. The present investigation offers valuable insights into the next generation, ultra clean, high thermal intensity MILD combustion.},
  preview={energy2024.png}

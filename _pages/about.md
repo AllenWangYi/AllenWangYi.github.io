@@ -19,14 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing a master’s degree in Mechanical Engineering with a concentration in Robotics at [Columbia University](https://www.me.columbia.edu/). Meanwhile, I am working as a research assistant at [WELL lab](https://well.robotics.wisc.edu/) (UW-Madison) supervised by [Prof. Xiong](https://www.xiaobinxiong.info/about), developing a novel robotic system, [PogoX](https://arxiv.org/abs/2309.13737). 
+I gained a master’s degree in Mechanical Engineering with a concentration in robotics and control at [Columbia University](https://www.me.columbia.edu/). I also worked as a research assistant at [WELL lab](https://well.robotics.wisc.edu/) (UW-Madison) supervised by [Prof. Xiong](https://www.xiaobinxiong.info/about), developing a novel robotic system, control and state estimation algorithms. Prior to that, I finished my bachelor degre in mechanical engineering from Sichuan University in 2022.
 
-<!-- I received my B.S. in Mechanical Engineering from the Sichuan University.  -->
-My research focuses on the control and optimazation of robotic locomotion. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. To realize these goals, I integrate concepts from optimization, control theory, and machine learning.
+My research focuses on the control, optimazation and machine learning of robotics. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. 
 
-***I am highly self-motivated in robotics.***
+<!-- ***I am highly self-motivated in robotics.*** -->
 
-<!-- ***I am looking for 2024 Spring/Fall Phd position.*** -->
+***I am actively looking for 2025 Spring/Fall Phd position.***
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
