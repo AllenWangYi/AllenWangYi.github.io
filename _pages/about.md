@@ -25,7 +25,7 @@ I place particular interest in enabling robots to interact autonomously, efficie
 
 <!-- ***I am highly self-motivated in robotics.*** -->
 
-***I am actively looking for 2025 Spring/Fall Phd position.***
+***I am actively looking for 2025 Spring/Fall PhD position.***
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
