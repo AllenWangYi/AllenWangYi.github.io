@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I gained a master’s degree in Mechanical Engineering with a concentration in robotics and control at [Columbia University](https://www.me.columbia.edu/). I also worked as a research assistant at [WELL lab](https://well.robotics.wisc.edu/) (UW-Madison) supervised by [Prof. Xiong](https://www.xiaobinxiong.info/about), developing a novel robotic system, control and state estimation algorithms. Prior to that, I finished my bachelor degre in mechanical engineering from Sichuan University in 2022.
 
-My research focuses on the control, optimazation and machine learning of robotics. I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. 
+I place particular interest in enabling robots to interact autonomously, efficiently, and safely with either their physical environment and human. To realize these goals, I integrate concepts from optimization, control theory, and machine learning.
 
 <!-- ***I am highly self-motivated in robotics.*** -->
 
